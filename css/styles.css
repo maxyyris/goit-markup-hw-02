@@ -47,6 +47,7 @@ ul {
   color: var(--NAVY-BLUE, #2e2f42);
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .header-nav-list-item:hover,
 .header-nav-list-item:focus {
@@ -149,6 +150,7 @@ button:focus {
 }
 
 .team-list-item {
+  background-color: #ffffff;
 }
 
 /* PORTFOLIO SECTION */
