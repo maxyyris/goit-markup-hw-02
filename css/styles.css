@@ -3,7 +3,6 @@ body {
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 500;
   line-height: normal;
   letter-spacing: normal;
   background-color: #fff;
@@ -17,22 +16,6 @@ a {
 ol,
 ul {
   list-style: none;
-}
-
-.button {
-  font-family: "Roboto", sans-serif;
-  color: var(--WHITE, #fff);
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-  border: none;
-  background: var(--IRIS, #4d5ae5);
-}
-button:hover,
-button:focus .button-accent {
-  background-color: #404bbf;
 }
 
 /* HEADER */
@@ -72,15 +55,19 @@ button:focus .button-accent {
 }
 
 .header-contacts {
+  font-style: normal;
 }
+
 .header-contacts-list {
 }
+
 .header-contacts-list-item {
   color: var(--SLATE, #434455);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .header-contacts-list-item:hover,
 .header-contacts-list-item:focus {
   color: var(--OCEAN, #404bbf);
@@ -101,6 +88,38 @@ button:focus .button-accent {
   letter-spacing: 0.02em;
 }
 
+.button {
+  font-family: "Roboto", sans-serif;
+  color: var(--WHITE, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
+  background: var(--IRIS, #4d5ae5);
+}
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+
+/* ADVANTAGES & TEAM TEXT PROPERTIES */
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.list-parag {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /* ADVANTAGES SECTION */
 .advantages {
 }
@@ -109,21 +128,6 @@ button:focus .button-accent {
 }
 
 .advantages-list-item {
-}
-
-.advantages-list-title {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
-
-.advantages-list-parag {
-  color: var(--SLATE, #434455);
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /* TEAM SECTION */
@@ -142,28 +146,9 @@ button:focus .button-accent {
 }
 
 .team-list {
-  background-color: #ffffff;
 }
 
 .team-list-item {
-}
-
-.team-list-title {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  font-weight: 500;
-}
-
-.team-list-parag {
-  color: #434455;
-  text-align: center;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  font-size: 16px;
 }
 
 /* PORTFOLIO SECTION */
